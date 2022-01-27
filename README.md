@@ -4,6 +4,8 @@ Projekt aplikacji wspomagającej pracę banku realizowany w ramach przedmiotu Pr
 
 Program ma za zadanie przechowywać dwa typy rachunków klienta : Zwykłe i Oszczędnośiowe
 
+Wyświetlanie intefejsu użytkownika w terminalu, proste menu do poruszania się.
+
 Zwykłe
 - koszt przelewu 0.00 zł
 - darmowa wypłata gotówki
