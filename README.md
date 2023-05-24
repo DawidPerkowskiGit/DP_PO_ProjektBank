@@ -6,7 +6,7 @@ Uses Java 8, Maven, Maven Jar Plugin
 
 ![obraz](https://user-images.githubusercontent.com/87314459/203964323-9712c9ea-7e7f-4a30-84f2-682a7d745aba.png)
 
-# Available actions
+# Available functions
 
 1 - Show list of clients  
 2 - Add/remove a client  
