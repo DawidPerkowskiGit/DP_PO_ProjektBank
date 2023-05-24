@@ -1,6 +1,8 @@
 # About application
 
-This application allows user to add new bank users, create two types of bank accounts, perform money deposit withdrawal and perform money transfers. The application has simple command line interface. Type a number to perform an acction. Uses Java 8, Maven, Maven Jar Plugin
+This application allows user to add new bank users, create two types of bank accounts, perform money deposit withdrawal and perform money transfers. The application has simple command line interface. Type a number to perform an acction.
+
+Uses Java 8, Maven, Maven Jar Plugin
 
 ![obraz](https://user-images.githubusercontent.com/87314459/203964323-9712c9ea-7e7f-4a30-84f2-682a7d745aba.png)
 
