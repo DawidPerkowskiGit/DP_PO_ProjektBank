@@ -1,26 +1,57 @@
 # DP_PO_ProjektBank
 
+# About application
+
+This application allows user to add new bank users, create two types of bank accounts, perform money deposit withdrawal and perform money transfers. The application has simple command line interface. Type a number to perform an acction. Uses Java 8, Maven, Maven Jar Plugin
+
 ![obraz](https://user-images.githubusercontent.com/87314459/203964323-9712c9ea-7e7f-4a30-84f2-682a7d745aba.png)
 
+# Available actions
 
-Mój pierwszy projekt aplikacji wspomagającej pracę banku realizowany w ramach przedmiotu Programowanie Obiektowe. Dwa kolejne projekty rozszerzają go o interfejs graficzny oraz poprawiony backend.
+1 - Show list of clients
+2 - Add/remove a client
+3 - Show list of bank accounts
+4 - Add/remove bank account
+5 - Transaction history
+6 - Deposit money
+7 - Withdraw money
+8 - Perform money transfer
+9 - Serach engine
+10 - Save/load from file
+11 - Exit
 
-#1 Z wykrozystaniem biblioteki Lanterna. https://github.com/DawidPerkowskiGit/DP_KCK_BankAPP
-#2 Aplikacja na Androida. https://github.com/DawidPerkowskiGit/BankAPP_Android
+# How to run application
 
-Program ma za zadanie przechowywać dwa typy rachunków klienta : Zwykłe i Oszczędnośiowe
+Using any command line interface perform tasks listed below.
 
-Wyświetlanie intefejsu użytkownika w terminalu, proste menu do poruszania się.
+1. Clone the repository
+2. Compile the project using Maven
+```
+mvn compile
+```
+3. Package the project using Maven
+```
+mvn clean package
+```
+4. Run the Jar file
+```
+java -jar .\target\Bank-1.0-SNAPSHOT.jar
+```
 
-Zwykłe
-- koszt przelewu 0.00 zł
-- darmowa wypłata gotówki
+# Application extensions
 
-Oszczędnościowe
-- koszt przelewu 1.50 zł
-- wypłata gotówki zależna od wypłacanej kwoty
+I created two more applicationg which are using mostly unchanged backend and implement UI
 
-Z każdego rachunku powinno dać sie wypłacać oraz wpłacać pieniądze oraz wykonywać przelewy pomiedzy nimi.
-Każdy rachunek musi posiadać historię operacji.
+## UI with Lanterna library
 
-Tekstowe menu aplikacji pozwala poruszać się pomiędzy historią operacji, rachunkami, operacjami wypłaty, wpłaty gotówki oraz wykonywaniem przelewów.
+Github link to the project
+```
+https://github.com/DawidPerkowskiGit/DP_KCK_BankAPP
+```
+
+## Android application
+
+Github link to the project
+```
+https://github.com/DawidPerkowskiGit/BankAPP_Android
+```
