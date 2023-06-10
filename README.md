@@ -19,6 +19,9 @@ Java 8, Maven, Maven Jar Plugin
 Using any command line interface perform tasks listed below.
 
 1. Clone the repository  
+```
+git clone https://github.com/DawidPerkowskiGit/DP_PO_ProjektBank
+```
 2. Compile the project using Maven  
 ```
 mvn compile
